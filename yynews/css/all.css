@@ -1,0 +1,420 @@
+#bander {
+    height: 200px;
+    background-image: url("../1.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: url(http://blog.xtrui.cn/wp-content/uploads/2017/03/zhi.gif);
+}
+
+h3 {
+    display: block;
+    padding: 78px;
+    line-height: 37px;
+    font-size: 52px;
+    text-align: center;
+    color: yellow;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+}
+
+#content {
+    text-align: center;
+    width: 1300px;
+    margin: auto;
+}
+
+#login {
+    width: 250px;
+    height: 170px;
+    margin: 35px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+    float: left;
+}
+
+.dl {
+    width: 250px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+.dl2 {
+    width: 250px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.hy {
+    padding-top: 45px;
+}
+
+#newscontent {
+    width: 900px;
+    float: left;
+    background-color: #fff;
+    min-height: 700px;
+    margin: 35px 0px 0px 20px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cf {
+    clear: both;
+}
+
+.left {
+    min-height: 735px;
+    width: 300px;
+    float: left;
+}
+
+#footer {
+    height: 150px;
+    background-color: #333;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#footer p {
+    color: #999;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    display: block;
+    line-height: 150px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    text-align: center;
+    display: block;
+    width: 90px;
+    float: left;
+    line-height: 37px;
+    height: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+}
+
+#lb {
+    width: 900px;
+    text-align: center;
+    height: 60px;
+    margin: auto;
+    margin-top: 25px;
+    border-top: 5px solid blue;
+    border-bottom: 1px solid #9d9d9d;
+    box-shadow: 0px 2px #f3f3f3;
+}
+
+#lsi {
+    width: 400px;
+    margin: auto;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+.clicked {
+    background-color: aquamarine;
+}
+
+#newst {
+    width: 800px;
+    margin: auto;
+    min-height: 700px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.newsl {
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.t {
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+    float: left;
+    height: 40px;
+    width: 700px;
+    padding: 0px;
+    font-weight: 400;
+    background-color: #f8f8f8;
+    color: #000;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bt {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    color: black;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.pp {
+    font-size: 16px;
+    text-align: left;
+    line-height: 32px;
+    padding: 25px;
+    color: #000;
+}
+
+.nr {
+    min-height: 150px;
+}
+
+.nr:hover {
+    background-color: #eee;
+}
+
+.pr {
+    display: block;
+    float: right;
+}
+
+.tp {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+#ncontent {
+    min-height: 700px;
+    width: 1200px;
+    background: #eee;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#fy {
+    height: 18px;
+    width: 800px;
+    font-size: medium;
+}
+
+#xwt {
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    min-height: 700px;
+}
+
+#title {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
+
+#author {
+    font-size: 25px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+#newsc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    width: 800px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: left;
+}
+
+#conment {
+    width: 1200px;
+    min-height: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.conmentn {
+    /*留言列表*/
+    width: 1000px;
+    height: 120px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    background-color: #eee;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.lytou {
+    width: 1000px;
+    height: 25px;
+    background-color: #ddd;
+}
+
+.lyz {
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding-left: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    width: 500px;
+    float: left;
+}
+
+.lyn {
+    /*留言内容*/
+    line-height: 16px;
+    font-size: 16px;
+    color: #333;
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 900px;
+}
+
+#lyk {
+    /*留言框*/
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#lyt {
+    overflow: scroll;
+    width: 900px;
+    margin: auto;
+    display: block;
+    height: 150px;
+    font-size: 16px;
+    resize: none;
+}
+
+#lyk button {
+    margin-left: 500px;
+    width: 50px;
+    margin-top: 15px;
+}
+
+.lysj {
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding-left: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    float: right;
+}
+
+#txs {
+    font-size: 35px;
+}
+
+#Nid {
+    display: none;
+}
+
+#leftp{
+    width: 220px;
+    min-height: 800px;
+    float: left;
+    margin: 25px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#leftp a{
+    display: block;
+    width: 220px;
+    font-size: 20px;
+    border:aquamarine solid 1px;
+    background-image: url(../nav.gif);
+    text-align: center;
+    border-radius: 20px 20px;
+    margin-top: 15px;
+}
+
+#rightp{
+    text-align: center;
+    min-height: 800px;
+    margin: 25px;
+    width: 1150px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    float: left;
+}
+
+#rightp span{
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+#rightp input{
+    display: block;
+    font-size: 20px;
+    float: left;
+}
+
+#njy{
+    width: 800px;
+    font-size: 16px;
+    float: left;
+}
+
+.newp1{
+    min-height: 50px;
+    width: 1150px;
+    margin: 35px;
+}
+
+.newp1 select{
+    display: block;
+    float: left;
+    font-size: 16px;
+}
+
+.newp{
+    min-height: 200px;
+    width: 1150px;
+    margin: 35px;
+}
+
+#editor{
+    font-size: 16px;
+}
+
+#tjn{
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin-left: 490px;
+}
+
+#tjn input{
+    display: block;
+    margin: 10px;
+}
+
+.text{
+    line-height: 28px;
+}

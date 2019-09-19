@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>班级代查询</title>
+</head>
+<body>
+    <form action="class_select.php" id="b" method="get" onsubmit="return check();">
+        <input type="text" id='a' placeholder="八位数班级代码" name="bjdm">
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
+<script>
+    var pattner=/^[0-9]{8}$/;
+    function check() {
+        if(!pattner.test(a.value)){
+            alert("请输入八位班级代码进行查询");
+            return false;
+        } 
+        else return true;
+    }
+</script>
